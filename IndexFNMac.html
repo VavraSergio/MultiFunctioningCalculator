@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fragile Help Page</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: flex-start; /* Align content to the top */
+        min-height: 100vh; /* Ensure full viewport height */
+      }
+
+      .top-centered-img {
+        width: 125px;
+        max-width: 100%; /* Ensure image doesn't exceed its container */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      .welcome {
+        text-align: center;
+        margin-top: 5px;
+      }
+
+      .top {
+        font-weight: bold;
+      }
+      .window {
+        font-weight: bold;
+        text-align: left;
+        padding-left: 5px;
+      }
+      .Buttons {
+        font-weight: bold;
+        text-align: left;
+        padding-left: 5px;
+      }
+      .History {
+        font-weight: bold;
+        text-align: left;
+        padding-left: 5px;
+      }
+      .RecordingControls {
+        font-weight: bold;
+        text-align: left;
+        padding-left: 5px;
+      }
+      .PlaybackControls {
+        font-weight: bold;
+        text-align: left;
+        padding-left: 5px;
+      }
+      .PlaybackControls {
+        font-weight: bold;
+        text-align: left;
+        padding-left: 5px;
+      }
+      .Intermediate {
+        font-weight: bold;
+        text-align: left;
+        padding-left: 5px;
+      }
+
+      .window_text {
+        font-size: 12px;
+        text-align: left;
+        padding-left: 5px;
+      }
+
+      .MainWindowImage {
+        width: 200px;
+      }
+
+      .Explanation {
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .Reset {
+        font-weight: bold;
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .ResetExplain {
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .clear {
+        font-weight: bold;
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .clearexplain {
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .backspace {
+        font-weight: bold;
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .backspaceexplain {
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .Operators {
+        font-weight: bold;
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .OperatorsDown {
+        text-align: left;
+        font-size: 11px;
+        padding-left: 25px;
+      }
+
+      .MenuBar {
+        font-weight: bold;
+        text-align: left;
+        padding-left: 5px;
+      }
+      .Menu {
+        width: 400px;
+      }
+      .MenuExplain {
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .MenuExplainCont {
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .HistoryB {
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .IntermediateB {
+        text-align: left;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+      .RecordingExplain {
+        text-align: center;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+
+      .PlaybackExplain {
+        text-align: center;
+        font-size: 12px;
+        padding-left: 5px;
+      }
+
+      .HistoryOpen {
+        font-size: 12px;
+        padding-left: 5px;
+      }
+
+      .InterClose {
+        font-size: 12px;
+        padding-left: 5px;
+      }
+
+      .PieChart {
+        width: 350px;
+      }
+      .About {
+        width: 250px;
+      }
+
+      .HistoryClosed {
+        width: 200px;
+      }
+
+      .HistoryOpen2 {
+        width: 300px;
+      }
+
+      .RecordingPhoto {
+        width: 250px;
+      }
+
+      .PlaybackPhoto {
+        width: 250px;
+      }
+      .IntermediateClose {
+        width: 200px;
+      }
+      .InterOpen {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="welcome">
+      <img class="top-centered-img" src="images/Fragile.png" />
+      <p class="top">Page d'aide Fragile™</p>
+      <p class="intro">
+        Fragile™ est une calculatrice conviviale développée par Sagacious Media.
+      </p>
+      <p class="window">Fenêtre principale</p>
+      <p class="window_text">
+        Ce qui suit est un exemple de la fenêtre principale.
+      </p>
+      <img class="MainWindowImage" src="images/MainWindow.png" />
+      <p class="Explanation">
+        L'utilisateur a la possibilité soit de saisir des valeurs à l'aide du
+        clavier ou en utilisant le clavier virtuel de la calculatrice.
+        <br /><br /><b>Fraction mixte actuelle</b><br /><br />Le courant mixte
+        fraction est la fraction en bas à droite de l’écran. Ce La fraction est
+        celle que l'utilisateur est en train de saisir. Ça va au sommet gauche
+        après avoir cliqué sur un opérateur ou son égal.<br /><br /><b
+          >Expression actuelle</b
+        ><br /><br />L'expression en haut à gauche, constituée d'un opérande de
+        gauche, un opérateur et un opérande droit montrent l'expression entière,
+        y compris l’expression évaluée. <br /><br /><b>Exécution de calculs</b
+        ><br /><br />L'utilisateur a le choix d'utiliser le précédent évalué
+        expression comme l'un des opérandes de l'expression suivante, ou pour
+        commencer sur.
+      </p>
+      <p class="Buttons"><b>Boutons</b></p>
+      <p class="Reset">Réinitialiser</p>
+      <p class="ResetExplain">
+        Lorsque le bouton de réinitialisation est enfoncé, l'expression actuelle
+        et l'actuel opérande sont effacés.
+      </p>
+      <p class="clear">Clair</p>
+      <p class="clearexplain">
+        Lorsque le bouton Effacer est enfoncé, la fraction mélangée actuelle est
+        effacée.
+      </p>
+      <p class="backspace">Retour arrière</p>
+      <p class="backspaceexplain">
+        Lorsque vous cliquez sur le bouton Retour arrière, l'entrée la plus
+        récente est supprimé.<br /><br />
+        <b>Basculer le signe</b><br /><br />
+        Lorsque vous cliquez dessus, le signe de la fraction mixte actuelle
+        change.
+        <br /><br /><b>Position (P)</b><br /><br />
+        Change le focus sur la fraction mixte actuelle.
+        <br /><br /><b>1-9</b><br /><br />Saisit le numéro correspondant dans le
+        partie ciblée de la fraction mixte actuelle.
+      </p>
+      <p class="Operators">Les opérateurs:</p>
+      <p class="OperatorsDown">
+        <b>Addition Soustraction Division Multiplication Inverse</b><br />
+        <br />
+        Chacun de ces opérateurs effectue le calcul attendu. <br />
+        <br />
+        <b>Simplifier</b> <br />
+        <br />
+        Simplifie la fraction mixte actuelle.
+        <br /><br />
+        <b>Mediant</b> <br /><br />
+        Calcule la médiane.
+        <br /><br />
+        <b>Puissance entière</b><br /><br />Calcule la puissance entière d'un
+        donné fraction mixte.
+      </p>
+      <p class="MenuBar">Barre de menu</p>
+      <img class="Menu" src="images/MenuBar.png" />
+      <p class="MenuExplain">
+        <b>Fichier->Quitter</b><br /><br />Ferme et termine la calculatrice.
+        <br /><br /><b>File->Print Session</b><br /><br />Imprime le courant
+        session.<br /><br /><b>Mode->Propriété | Mode->Réduit</b
+        ><br /><br />Permet à l'utilisateur de choisir comment les fractions
+        sont affichées en sélectionnant un mode. <br /><br /><b
+          >Affichage->Graphique circulaire</b
+        ><br /><br />Fournit une représentation graphique à secteurs de la
+        situation actuelle expression.
+      </p>
+      <img class="PieChart" src="images/PieChartImage.png" />
+      <p class="MenuExplainCont">
+        <b>Style->Barre | Style->Slash | Style-> Solidus</b><br /><br />Permet
+        au l'utilisateur de choisir le style de la barre de fraction.<br /><br /><b
+          >Aide->À propos</b
+        ><br /><br />Ouvre une page à propos.
+      </p>
+      <img class="About" src="images/About.png" />
+      <p class="History">History</p>
+      <p class="HistoryB">
+        L'historique peut être consulté par l'utilisateur via un onglet
+        extractible qui doit être cliqué. L'historique stocke les expressions
+        précédentes et permet à l'utilisateur de copier et coller l'expression
+        précédente.
+      </p>
+      <img class="HistoryClosed" src="images/HistoryClosed.png" />
+      <p class="HistoryOpen">L'utilisateur clique ensuite sur le '>'</p>
+      <img class="HistoryOpen2" src="images/HistoryOpen.png" />
+      <p class="RecordingControls">Contrôles d'enregistrement</p>
+      <img class="RecordingPhoto" src="images/Recording.png" />
+      <p class="RecordingExplain">
+        Le contrôleur dispose de trois boutons : stop, pause et enregistrement.
+        Une fois la L'utilisateur clique sur l'enregistrement, la calculatrice
+        enregistre les entrées et les sorties. Si l'utilisateur appuie sur
+        pause, l'enregistrement se met en pause. Si l'utilisateur arrête, le
+        l’enregistrement est arrêté et sauvegardé.
+      </p>
+      <p class="PlaybackControls">Commandes de lecture</p>
+      <img class="PlaybackPhoto" src="images/Playback.png" />
+      <p class="PlaybackExplain">
+        Le contrôleur dispose de 3 boutons et d'un curseur. Le curseur contrôle
+        la vitesse du jeu. Le bouton d'arrêt arrête le système et le ferme. Une
+        fois la le bouton Démarrer est cliqué, si le bouton Pause est cliqué, il
+        est mis en pause jusqu'à ce que l'utilisateur clique à nouveau sur le
+        bouton de lecture.
+      </p>
+      <p class="Intermediate">Intermediate Steps</p>
+      <p class="IntermediateB">
+        Les étapes intermédiaires sont visibles par l'utilisateur via une
+        languette extractible qui il faut cliquer. L'onglet intermédiaire stocke
+        l'explication des plus expression récente par étapes.
+      </p>
+      <img class="IntermediateClose" src="images/IntermediateClosed.png" />
+      <p class="InterClose">
+        L'utilisateur saisit ensuite une expression et clique sur le '>'
+      </p>
+      <img class="InterOpen" src="images/IntermediateOpen.png" />
+    </div>
+  </body>
+</html>
